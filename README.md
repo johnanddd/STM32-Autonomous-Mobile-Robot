@@ -166,5 +166,9 @@ This project was a huge learning experience for me, and built mainly as a way to
 The project was intentionally built from scratch instead of following a complete robotics tutorial or using a premade autonomous car kit.
 
 ## Some old pictures of the robot showing progress
+![Old Picture 1](old_pic1.jpeg)
+![Old Picture 2](old_pic2.jpeg)
+![Old Picture 3](old_pic3.jpeg)
+![Old Picture 4](old_pic4.jpeg)
 
 
