@@ -111,7 +111,7 @@ Turning right
 This was super useful for testing the ultrasonic sensor, servo positions, and navigation logic.
 
 
-## Build
+## V1 Build & Photos
 
 This project went through several hardware iterations before reaching the current version.
 
@@ -130,8 +130,6 @@ Top View
 
 Side View
 ![Side View](side_view.jpeg)
-
-Some old pictures of the robot showing progress
 
 
 ## Current Status
@@ -168,3 +166,7 @@ This project was a huge learning experience for me, and built mainly as a way to
 * Basic autonomous decision making
 
 The project was intentionally built from scratch instead of following a complete robotics tutorial or using a premade autonomous car kit.
+
+## Some old pictures of the robot showing progress
+
+
