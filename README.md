@@ -115,17 +115,21 @@ This was super useful for testing the ultrasonic sensor, servo positions, and na
 
 This project went through several hardware iterations before reaching the current version.
 
-The chassis was built manually from cardboard, foam, and wooden supports rather than using a premade robot chassis.
+The V1 chassis was built manually from cardboard, foam, and wooden supports rather than using a premade robot chassis.
 
 The final V1 uses four motors, a front-mounted scanning ultrasonic sensor, onboard power supplies, and front LED headlights.
 
 Front View
+![Front View 1](front_view1.jpeg)
 
 Front View - STM32 and Front Lights Powered
+![Front View 2](front_view2.jpeg)
 
 Top View
+![Top View](top_view.jpeg)
 
 Side View
+![Side View](side_view.jpeg)
 
 Some old pictures of the robot showing progress
 
