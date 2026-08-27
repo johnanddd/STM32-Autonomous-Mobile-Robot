@@ -150,7 +150,7 @@ Future versions may include:
 
 This project was a huge learning experience for me, and built mainly as a way to learn embedded systems by working directly with:
 
-* Working with more advanced microcontrollers such as the STM32
+* An STM32 microcontroller
 * GPIO
 * Hardware timers
 * PWM
