@@ -42,7 +42,7 @@ The robot uses a servo-mounted ultrasonic sensor to scan left, center, and right
 
 The robot continuously measures the distance directly in front of it.
 
-If the distance to the nearest object forwards is above a certain threshold (75 cm) it continues driving forward.
+If the distance to the nearest object forwards is farther than a certain threshold (75 cm) it continues driving forward.
 
 If an obstacle is detected within the threshold, the robot stops and scans both sides using the ultrasonic sensor mounted on the servo.
 
@@ -57,13 +57,9 @@ The STM32 then measures the duration of the ECHO pulse using a hardware timer co
 
 Distance is calculated from the measured round-trip travel time of the sound wave:
 
-float distance_cm =
-    ((float)echo_time_us / 1000000.0f)
-    * 343.0f
-    / 2.0f
-    * 100.0f;
+float distance_cm = ((float)echo_time_us / 1000000.0f) * 343.0f / 2.0f * 100.0f;
 
-This converts the measured echo time (in microseconds) the sound took to travel into distance in centimeters the object is. 
+This converts the measured echo time (in microseconds) the sound took to travel into distance in centimeters the object is from the sensor. 
 
 
 ## Servo Scanning
@@ -147,14 +143,14 @@ Future versions may include:
 * IMU-based heading measurement
 * Improved turning accuracy
 * Non-blocking control logic
-* More advanced navigation algorithms
+* More advanced navigation algorithms, especially for more complex surroundings or different elevations.
 
 
 ## Development
 
 This project was a huge learning experience for me, and built mainly as a way to learn embedded systems by working directly with:
 
-* More advanced microcontrollers such as the STM32
+* Working with more advanced microcontrollers such as the STM32
 * GPIO
 * Hardware timers
 * PWM
@@ -165,6 +161,7 @@ This project was a huge learning experience for me, and built mainly as a way to
 * Power distribution
 * Embedded C
 * Basic autonomous decision making
+* Debugging
 
 The project was intentionally built from scratch instead of following a complete robotics tutorial or using a premade autonomous car kit.
 
