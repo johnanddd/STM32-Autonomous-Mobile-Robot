@@ -117,16 +117,16 @@ The V1 chassis was built manually from cardboard, foam, and wooden supports rath
 The final V1 uses four motors, a front-mounted scanning ultrasonic sensor, onboard power supplies, and front LED headlights.
 
 Front View
-![Front View 1](front_view1.jpeg)
+![Front View 1](images/front_view1.jpeg)
 
 Front View - STM32 and Front Lights Powered
-![Front View 2](front_view2.jpeg)
+![Front View 2](images/front_view2.jpeg)
 
 Top View
-![Top View](top_view.jpeg)
+![Top View](images/top_view.jpeg)
 
 Side View
-![Side View](side_view.jpeg)
+![Side View](images/side_view.jpeg)
 
 
 ## Current Status
@@ -169,10 +169,10 @@ The project was intentionally built from scratch instead of following a complete
 
 The robot went through several hardware and mechanical iterations before reaching a working V1 state. These photos show some of the earlier prototypes and subsystem tests. 
 
-![Old Picture 1](old_pic1.jpeg)
-![Old Picture 2](old_pic2.jpeg)
+![Old Picture 1](images/old_pic1.jpeg)
+![Old Picture 2](images/old_pic2.jpeg)
 Note: The original small DC motors did not provide enough torque to move the robot well under its own weight, so I replaced them with larger geared DC motors. 
-![Old Picture 3](old_pic3.jpeg)
-![Old Picture 4](old_pic4.jpeg)
+![Old Picture 3](images/old_pic3.jpeg)
+![Old Picture 4](images/old_pic4.jpeg)
 
 
