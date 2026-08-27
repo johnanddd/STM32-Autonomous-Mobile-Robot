@@ -2,6 +2,8 @@
 
 This is a from-scratch autonomous mobile robot built around the STM32 NUCLEO-F446RE.
 
+![Front view with STM32 & Lights on](front_view2.jpeg)
+
 The goal of the project was to build a robot that could move around on its own, detect obstacles, scan its surroundings, and decide which direction to turn without relying on high-level robotics libraries.
 
 The robot uses a servo-mounted ultrasonic sensor to scan left, center, and right. Distance measurements are processed by the STM32, which then decides whether to keep moving forward or turn toward the direction with more open space.
