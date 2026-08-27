@@ -33,7 +33,8 @@ The robot uses a servo-mounted ultrasonic sensor to scan left, center, and right
 - Breadboard and jumper wires
 - LEDs and current-limiting resistors
 - Transistor-based LED switching
-- Battery packs / external power supplies / Voltage regulator
+- Battery packs / external power supplies
+- A 9V Battery & Voltage Regulator
 - Custom cardboard and wood chassis
 
 
