@@ -9,6 +9,10 @@ The goal of the project was to build a robot that could move around on its own, 
 The robot uses a servo-mounted ultrasonic sensor to scan left, center, and right. Distance measurements are processed by the STM32, which then decides whether to keep moving forward or turn toward the direction with more open space.
 
 
+## Demo
+
+[Watch the robot navigate autonomously on YouTube](https://youtube.com/shorts/Af4F2vDJBIc?is=gysdv3sMcjRtJqm6)
+
 ## Features
 
 - Autonomous obstacle avoidance
