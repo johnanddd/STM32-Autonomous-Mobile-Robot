@@ -46,7 +46,7 @@ The robot uses a servo-mounted ultrasonic sensor to scan left, center, and right
 
 The robot continuously measures the distance directly in front of it.
 
-If the distance to the nearest object forwards is farther than a certain threshold (75 cm) it continues driving forward.
+If the measured distance ahead is greater than the 75 cm obstacle threshold, the robot continues driving forward.
 
 If an obstacle is detected within the threshold, the robot stops and scans both sides using the ultrasonic sensor mounted on the servo.
 
@@ -101,7 +101,7 @@ The robot can:
 
 ## UART Debugging
 
-I used USART2 for serial debugging and to be able to print stuff. I configured the baud rate to 115200 and outputted it in a serial monitor.
+I used USART2 for serial debugging and telemetry output. I configured the baud rate to 115200 and monitored the output using a serial terminal.
 
 The STM32 sends information such as:
 
