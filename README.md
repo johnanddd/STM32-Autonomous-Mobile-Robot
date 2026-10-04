@@ -82,7 +82,7 @@ After the servo reaches each position, the ultrasonic sensor takes a distance me
 
 ## Motor Control
 
-The four DC motors are controlled through a TB6612FNG dual H-bridge motor driver.
+The four geared DC motors are controlled through a TB6612FNG dual H-bridge motor driver.
 
 The two motors on each side are controlled together.
 
